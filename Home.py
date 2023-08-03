@@ -28,9 +28,9 @@ st.markdown(
 
 
 
-image1 = Image.open('/Users/ligandrosy/Documents/VSCODE Folders/Liga-Football/data/images/pizza.jpeg')
-image2 = Image.open('/Users/ligandrosy/Documents/VSCODE Folders/Liga-Football/data/images/radar.jpeg')
-image3 = Image.open('/Users/ligandrosy/Documents/VSCODE Folders/Liga-Football/data/images/matcha.jpeg')
+image1 = Image.open('data/images/pizza.jpeg')
+image2 = Image.open('data/images/radar.jpeg')
+image3 = Image.open('data/images/matcha.jpeg')
 
 st.image([image1,image2,image3],caption=["Pizza Plot","Radar Plot","Match Report"],width=260)
 

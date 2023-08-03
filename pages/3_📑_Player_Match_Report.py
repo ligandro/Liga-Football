@@ -772,7 +772,7 @@ if len(url) > 30:
         
         
     # add league logo PREM,L1,SI,LIGA,uefa,euro
-    im1 = plt.imread('/Users/ligandrosy/Downloads/PREM.png')
+    im1 = plt.imread('data/images/PREM.png')
     ax_image = add_image(
             im1, fig, left=0.1, bottom=0.892, width=0.12, height=0.12
         )   # these values might differ when you are plotting
