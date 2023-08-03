@@ -10,3 +10,4 @@ PyYAML==6.0.1
 Requests==2.31.0
 selenium==4.11.2
 streamlit==1.16.0
+altair==4.1.0
