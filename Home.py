@@ -29,7 +29,7 @@ st.markdown(
 
 
 image1 = Image.open('data/images/pizza.jpeg')
-image2 = Image.open('data/images/radar.jpeg')
+image2 = Image.open('data/images/Radar.jpeg')
 image3 = Image.open('data/images/matcha.jpeg')
 
 st.image([image1,image2,image3],caption=["Pizza Plot","Radar Plot","Match Report"],width=260)
