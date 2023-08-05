@@ -88,7 +88,7 @@ st.markdown(
 # Define a function for web scraping and data processing
 @st.cache
 def scrape_and_process_data(url):
-    driver = webdriver.Chrome('chromedriver.exe')
+    driver = webdriver.Chrome('chromedriver')
     driver.get(url)
 
     soup = BeautifulSoup(driver.page_source, 'lxml')
